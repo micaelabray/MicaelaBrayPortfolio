@@ -1,0 +1,17 @@
+.logo {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+}
+
+.webDevCol {
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0;    
+}
+
+.softwareCol {
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0;
+}
