@@ -1,17 +1,48 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+/* 
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+} */
+
 .logo {
     text-align: center;
     height: 50%;
     width: 50%;
 }
 
+.aboutMeSection {
+    background-color: #d9d9d9;
+    padding: 10% 10%;
+    margin-bottom: 5%; 
+}
+
 .webDevCol {
     text-align: center;
     border-radius: 10%;
-    box-shadow: 0 4px 8px 0;    
+    box-shadow: 0 0 30px -5px hsla(0,0%,20.8%,.45);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 5%;
 }
 
 .softwareCol {
     text-align: center;
     border-radius: 10%;
-    box-shadow: 0 4px 8px 0;
+    box-shadow: 0 0 30px -5px hsla(0,0%,20.8%,.45);;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 5%;
+}
+
+.techHeading {
+    padding-bottom: 5%;
+}
+
+.techIcons {
+    text-align: center;
+    margin-bottom: 5%;
 }
